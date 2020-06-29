@@ -18,12 +18,12 @@ exports.config = {
     //
     specs: [
         './test/elements.js',
-        './test/defaultfunctionality.js'
+        './test/defaultFunctionality.js'
 
     ],
     // Patterns to exclude.
     exclude: [
-        './test/defaultfunctionality.js'
+        './test/elements.js',
         // 'path/to/excluded/files'
     ],
     //
